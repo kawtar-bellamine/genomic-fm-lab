@@ -1,0 +1,110 @@
+[
+ {
+  "backbone": "transformer",
+  "length": 300,
+  "latency_s": 0.003454453999438556,
+  "bases_per_s": 347377.61747443536
+ },
+ {
+  "backbone": "transformer",
+  "length": 1536,
+  "latency_s": 0.021529566998651717,
+  "bases_per_s": 285374.99153535074
+ },
+ {
+  "backbone": "transformer",
+  "length": 6144,
+  "latency_s": 0.19784289200106286,
+  "bases_per_s": 124219.77737703091
+ },
+ {
+  "backbone": "transformer",
+  "length": 12288,
+  "latency_s": 0.701626911000858,
+  "bases_per_s": 70054.32549598985
+ },
+ {
+  "backbone": "transformer",
+  "length": 24576,
+  "latency_s": 2.7941232409993972,
+  "bases_per_s": 35182.413773860164
+ },
+ {
+  "backbone": "transformer",
+  "length": 49152,
+  "latency_s": 10.873414646999663,
+  "bases_per_s": 18081.532470046168
+ },
+ {
+  "backbone": "s4d",
+  "length": 300,
+  "latency_s": 0.0052561249995051185,
+  "bases_per_s": 228305.0726748287
+ },
+ {
+  "backbone": "s4d",
+  "length": 1536,
+  "latency_s": 0.015743687999929534,
+  "bases_per_s": 390251.6360859984
+ },
+ {
+  "backbone": "s4d",
+  "length": 6144,
+  "latency_s": 0.06452089800040994,
+  "bases_per_s": 380899.84426199173
+ },
+ {
+  "backbone": "s4d",
+  "length": 12288,
+  "latency_s": 0.14151742100148113,
+  "bases_per_s": 347321.196586006
+ },
+ {
+  "backbone": "s4d",
+  "length": 24576,
+  "latency_s": 0.37996668699997826,
+  "bases_per_s": 258717.41750877656
+ },
+ {
+  "backbone": "s4d",
+  "length": 49152,
+  "latency_s": 1.0818755569998757,
+  "bases_per_s": 181728.84924511018
+ },
+ {
+  "backbone": "cnn",
+  "length": 300,
+  "latency_s": 0.0015720520004833816,
+  "bases_per_s": 763333.5281727441
+ },
+ {
+  "backbone": "cnn",
+  "length": 1536,
+  "latency_s": 0.0032710000014049,
+  "bases_per_s": 1878324.6705475822
+ },
+ {
+  "backbone": "cnn",
+  "length": 6144,
+  "latency_s": 0.013471048001520103,
+  "bases_per_s": 1824356.9466330155
+ },
+ {
+  "backbone": "cnn",
+  "length": 12288,
+  "latency_s": 0.01794859700021334,
+  "bases_per_s": 2738487.024886445
+ },
+ {
+  "backbone": "cnn",
+  "length": 24576,
+  "latency_s": 0.03628025299985893,
+  "bases_per_s": 2709573.1664380133
+ },
+ {
+  "backbone": "cnn",
+  "length": 49152,
+  "latency_s": 0.08238640200033842,
+  "bases_per_s": 2386413.2335721175
+ }
+]

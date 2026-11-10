@@ -1,0 +1,32 @@
+{
+ "transformer": {
+  "fp32": {
+   "latency_ms_per_seq": 0.5341476406215406,
+   "accuracy": 0.655,
+   "size_mb": 0.831496
+  },
+  "int8_dynamic": {
+   "latency_ms_per_seq": 0.49052951564476643,
+   "accuracy": 0.652
+  },
+  "onnxruntime": {
+   "latency_ms_per_seq": 2.250098171884929,
+   "accuracy": 0.655,
+   "size_mb": 1.944402
+  }
+ },
+ "s4d": {
+  "fp32": {
+   "latency_ms_per_seq": 0.7513007187469611,
+   "accuracy": 0.74,
+   "size_mb": 0.89908
+  },
+  "int8_dynamic": {
+   "latency_ms_per_seq": 0.8341105781255465,
+   "accuracy": 0.737
+  },
+  "onnxruntime": {
+   "error": "Exporting the operator 'aten::fft_rfft' to ONNX opset version 17 is not supported"
+  }
+ }
+}
